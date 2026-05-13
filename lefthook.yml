@@ -15,3 +15,5 @@ pre-commit:
     deadnix:
       glob: "*.nix"
       run: deadnix --fail .
+    ls-lint:
+      run: git ls-files -z | xargs -0 ls_lint

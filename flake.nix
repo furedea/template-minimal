@@ -17,6 +17,7 @@
           commitlint
           deadnix
           lefthook
+          ls-lint
           nixfmt-rfc-style
           statix
           # Add language toolchain here (uv, pnpm, cargo, go, ...).
